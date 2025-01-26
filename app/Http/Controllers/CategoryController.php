@@ -80,7 +80,7 @@ class CategoryController extends Controller
     private function rules(?int $id = null): array
     {
         return [
-            'nombre' => ['required', 'string', 'min:4', 'max:32', 'unique:products,nombre,' . $id],
+            'nombre' => ['required', 'string', 'min:4', 'max:32', 'unique:categories,nombre,' . $id],
             'color' => ['required', 'color-hex'],
         ];
     }

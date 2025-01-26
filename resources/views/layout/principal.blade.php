@@ -21,8 +21,6 @@
 <alertas>
     @yield('alertas')
 </alertas>
-<confirm>
-    @yield('confirm')
-</confirm>
+
 </body>
 </html>

@@ -51,5 +51,6 @@
     </form>
 
 @endsection
-@section("alertas")
+@section('alertas')
+    <x-alerta />
 @endsection
